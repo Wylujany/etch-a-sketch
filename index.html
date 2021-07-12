@@ -9,8 +9,14 @@
   </head>
   <body>
     <h1>Etch-a-Sketch</h1>
-    <button onClick="selectSize()">Create New</button>
+    <hr />
+    <div id="buttons-div">
+      <button onClick="selectSize()">New Grid</button>
+      <button id="blackColor">Black</button>
+      <button id="rainbowColor">Rainbow</button>
+    </div>
     <div id="container"></div>
+    <button onClick="clearGrid()" id="clear">Clear</button>
   </body>
   <script src="script.js"></script>
 </html>
